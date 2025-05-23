@@ -5,9 +5,9 @@ function Header () {
         <header className="bg-gray-800 grid grid-flow-col">
         <h1 className="text-white ml-4">John Doe</h1>
         <nav className="text-right flex justify-between mr-4">
-            <NavLink className="text-white">HOME</NavLink>
+            <NavLink className="text-white" to="/">HOME</NavLink>
             <NavLink className="text-white">SERVICES</NavLink>
-            <NavLink className="text-white">PORTFOLIO</NavLink>
+            <NavLink className="text-white" to="/portfolio">PORTFOLIO</NavLink>
             <NavLink className="text-white">CONTACT</NavLink>
             <NavLink className="text-white">MENTIONS LEGALES</NavLink>
         </nav>

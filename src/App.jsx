@@ -1,13 +1,17 @@
-import { BrowserRouter } from "react-router"
+import { BrowserRouter, Routes, Route } from "react-router"
 import Header from "./components/Header"
 import Home from "./pages/Home"
+import Portfolio from "./pages/Portfolio"
 
 function App() {
 
   return (
     <BrowserRouter>
     <Header></Header>
-    <Home></Home>
+    <Routes>
+      <Route path ="/" element={<Home></Home>}></Route>
+      <Route path ="/portfolio" element={<Portfolio></Portfolio>}></Route>
+    </Routes>
     </BrowserRouter>
   )
 }
