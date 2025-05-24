@@ -8,8 +8,8 @@ function Header () {
             <NavLink className="text-white" to="/">HOME</NavLink>
             <NavLink className="text-white">SERVICES</NavLink>
             <NavLink className="text-white" to="/portfolio">PORTFOLIO</NavLink>
-            <NavLink className="text-white">CONTACT</NavLink>
-            <NavLink className="text-white">MENTIONS LEGALES</NavLink>
+            <NavLink className="text-white" to="/contact">CONTACT</NavLink>
+            <NavLink className="text-white" to="/mentionslegales">MENTIONS LEGALES</NavLink>
         </nav>
         </header>
     )
