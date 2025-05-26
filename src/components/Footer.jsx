@@ -23,10 +23,10 @@ function Footer () {
             <h2 className="mb-2 text-xl">Liens utiles</h2>
             <nav className="flex flex-col">
             <NavLink to="/">Accueil</NavLink>
-            <NavLink>Services</NavLink>
+            <NavLink to="/services">Services</NavLink>
             <NavLink to="/portfolio">Portfolio</NavLink>
-            <NavLink>Me contacter</NavLink>
-            <NavLink>Mentions légales</NavLink>
+            <NavLink to="/contact">Me contacter</NavLink>
+            <NavLink to="/mentionslegales">Mentions légales</NavLink>
             </nav>
         </div>
         <div>

@@ -2,7 +2,7 @@ function Card ({real}) {
     const urlImage = new URL (`../assets/images/${real.picture}`, import.meta.url).href;
 
     return (
-        <div className="flex flex-col items-center w-1/4 bg-white shadow-md rounded-lg border-gray-200">
+        <div className="flex flex-col items-center w-1/4 bg-white shadow-md rounded-lg border border-gray-200">
             <img src={urlImage} alt="" />
             <h2 className="text-xl font-semibold mb-2">{real.title}</h2>
             <p className="text-gray-600 mb-2">{real.description}</p>
