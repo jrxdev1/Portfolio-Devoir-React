@@ -51,7 +51,13 @@ function MentionsLegales () {
             <div className="p-5 border border-t-0 border-gray-200">
             <p className="mb-2 text-gray-5000">Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" className="text-blue-500 underline">Centre Européen de formation</a>.</p>
             <p className="mb-2 text-gray-5000 italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/fr/" className="text-blue-500 underline">Pixabay</a></p>
+            <div>
             <p className="mb-2 text-gray-5000 italic">Le favison ainsi que les icones de ce site ont été obtenues sur le site <a href="https://www.flaticon.com/fr/" className="text-blue-500 underline">Flaticon</a></p>
+            <a href="https://www.flaticon.com/fr/icones-gratuites/artiste" title="artiste icônes">Artiste icônes créées par juicy_fish - Flaticon</a>
+            <a href="https://www.flaticon.com/fr/icones-gratuites/loupe" title="loupe icônes">Loupe icônes créées par Muhammad_Usman - Flaticon</a>
+            <a href="https://www.flaticon.com/fr/icones-gratuites/code" title="code icônes">Code icônes créées par KP Arts - Flaticon</a>
+            </div>
+
             </div>
         </div>
         </div>
