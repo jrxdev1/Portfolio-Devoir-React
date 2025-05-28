@@ -6,7 +6,7 @@ function Footer () {
         <div>
             <h2 className="mb-2 text-xl">John Doe</h2>
             <div className="flex flex-col">
-            <address>
+            <address className="not-italic">
                 <span>40 rue Laure Diebold</span><br />
                 <span>69009 Lyon, France</span>
            </address>
@@ -22,22 +22,22 @@ function Footer () {
         <div>
             <h2 className="mb-2 text-xl">Liens utiles</h2>
             <nav className="flex flex-col">
-            <NavLink to="/">Accueil</NavLink>
-            <NavLink to="/services">Services</NavLink>
-            <NavLink to="/portfolio">Portfolio</NavLink>
-            <NavLink to="/contact">Me contacter</NavLink>
-            <NavLink to="/mentionslegales">Mentions légales</NavLink>
+            <NavLink to="/" className={"hover:font-bold"}>Accueil</NavLink>
+            <NavLink to="/services" className={"hover:font-bold"}>Services</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>Portfolio</NavLink>
+            <NavLink to="/contact" className={"hover:font-bold"}>Me contacter</NavLink>
+            <NavLink to="/mentionslegales" className={"hover:font-bold pr-1"}>Mentions légales</NavLink>
             </nav>
         </div>
         <div>
             <h2 className="mb-2 text-xl">Mes derniers réalisations</h2>
             <nav className="flex flex-col">
-            <NavLink to="/portfolio">Fresh Food</NavLink>
-            <NavLink to="/portfolio">Resaurant Akira</NavLink>
-            <NavLink to="/portfolio">Espace bien-être</NavLink>
-            <NavLink to="/portfolio">SEO</NavLink>
-            <NavLink to="/portfolio">Création d'une API</NavLink>
-            <NavLink to="/portfolio">Maquette d'un site</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>Fresh Food</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>Resaurant Akira</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>Espace bien-être</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>SEO</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>Création d'une API</NavLink>
+            <NavLink to="/portfolio" className={"hover:font-bold"}>Maquette d'un site</NavLink>
             </nav>
         </div>
         </footer>

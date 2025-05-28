@@ -4,8 +4,8 @@ import PopUpGitHub from "../components/profil";
 function BackgroundImage () {
     return (
         <div className="bg-[url('./src/assets/images/hero-bg.jpg')] w-full bg-no-repeat h-screen flex flex-col justify-center items-center gap-7">
-            <h1 className="text-white text-center text-8xl">Bonjour, je suis John Doe</h1>
-            <h2 className="text-white text-center text-6xl">Développeur web full stack</h2>
+            <h1 className="text-white text-center text-4xl md:text-8xl">Bonjour, je suis John Doe</h1>
+            <h2 className="text-white text-center text-xl md:text-6xl">Développeur web full stack</h2>
             <PopUpGitHub></PopUpGitHub>
         </div>
     )
