@@ -1,12 +1,16 @@
-# React + Vite
+# Protfolio React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce site est un projet de portfolio personnel qui a pour objectif l'expérimentation des bases de JavaScript. Le projet a été développé avec React et Vite. La mise en page a été effectuée avec Tailwind CSS et Flowbite. Il intègre également React Router pour la navigation et React Helmet pour la gestion des métadonnées.
 
-Currently, two official plugins are available:
+# Technologies utilisées :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Flowbite](https://flowbite.com/)
+- [React Router](https://reactrouter.com/)
+- [React Helmet](https://github.com/nfl/react-helmet)
 
-## Expanding the ESLint configuration
+# Prérequis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Avant de commencer, assurez-vous d’avoir installé [Node.js](https://nodejs.org/)
