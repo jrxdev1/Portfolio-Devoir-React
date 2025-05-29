@@ -1,4 +1,4 @@
-# Protfolio React
+# Portfolio React
 
 Ce site est un projet de portfolio personnel qui a pour objectif l'expérimentation des bases de JavaScript. Le projet a été développé avec React et Vite. La mise en page a été effectuée avec Tailwind CSS et Flowbite. Il intègre également React Router pour la navigation et React Helmet pour la gestion des métadonnées.
 
