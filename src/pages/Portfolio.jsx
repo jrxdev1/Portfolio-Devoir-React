@@ -9,8 +9,8 @@ function Portfolio () {
             <img src="./src/assets/images/banner.jpg" alt="" />
             <TitleH1 title={"Portfolio"} complement={"Voici quelques unes de mes créations"}></TitleH1>
             <div className="md:flex md:flex-row md:flex-wrap md:justify-center md:gap-8 md:my-8 flex flex-col gap-3 justify-center">
-                {contentCard.projects.map((project) =>(
-                    <Card infos={project}></Card>
+                {contentCard.projects.map((project,index) =>(
+                    <Card key={index} infos={project}></Card>
                 ))}
             </div>
         </div>

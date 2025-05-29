@@ -12,7 +12,7 @@ function Header () {
 <nav>
   <div className="flex flex-wrap items-center justify-between mx-auto p-4 bg-gray-800">
         <span className="self-center text-2xl whitespace-nowrap text-white">JOHN DOE</span>
-    <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+    <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
         <span className="sr-only">Open main menu</span>
         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -44,7 +44,7 @@ function Header () {
             to="/mentionslegales"
             className={({ isActive }) =>
                 isActive ? "text-white underline font-bold" : "text-white hover:underline"}
-                >MENTIONS LEGALES</NavLink></li>
+                >MENTIONS LÉGALES</NavLink></li>
       </ul>
     </div>
   </div>
@@ -53,16 +53,3 @@ function Header () {
 }
 
 export default Header
-
-/*
-<header className="bg-gray-800 grid grid-flow-col">
-<h1 className="text-white ml-4">JOHN DOE</h1>
-<nav className="text-right flex justify-between mr-4">
-    <NavLink className="text-white" to="/">HOME</NavLink>
-    <NavLink className="text-white" to="/services">SERVICES</NavLink>
-    <NavLink className="text-white" to="/portfolio">PORTFOLIO</NavLink>
-    <NavLink className="text-white" to="/contact">CONTACT</NavLink>
-    <NavLink className="text-white" to="/mentionslegales">MENTIONS LEGALES</NavLink>
-</nav>
-</header>
-*/

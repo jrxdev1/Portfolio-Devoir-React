@@ -14,8 +14,8 @@ function Footer () {
             <a href="mailto:john.do@gmail.com">john.do@gmail.com</a>
             <div className="flex flex-row w-25 gap-2 mt-4">
                 <a href="https://github.com/github-john-doe" target="blank"><img src="./src/assets/images/github.png" alt="logo Github" className="invert grayscale hover:grayscale-0"/></a>
-                <a href=""><img src="./src/assets/images/twitter.png" alt="logo X" className="invert grayscale"/></a>
-                <a href=""><img src="./src/assets/images/linkedin.png" alt="logo Linkedin" className="invert grayscale"/></a>
+                <a href="https://x.com/" target="blank"><img src="./src/assets/images/twitter.png" alt="logo X" className="invert grayscale"/></a>
+                <a href="https://fr.linkedin.com/" target="blank"><img src="./src/assets/images/linkedin.png" alt="logo Linkedin" className="invert grayscale"/></a>
             </div>
             </div>
         </div>

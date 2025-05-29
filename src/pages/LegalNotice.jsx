@@ -21,7 +21,7 @@ function MentionsLegales () {
         <h2 id="accordion-color-heading-1">
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-blue-200 hover:bg-blue-100  gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
             <span>Editeur du site</span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
             </svg>
             </button>
@@ -40,7 +40,7 @@ function MentionsLegales () {
         <h2 id="accordion-color-heading-2">
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100  gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
             <span>Hébergeur</span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
             </svg>
             </button>
@@ -49,19 +49,20 @@ function MentionsLegales () {
             <div className="p-5 border border-b-0 border-gray-200">
             <p className="mb-2 text-gray-5000 font-bold text-2xl">alwaysdata</p>
             <address className="not-italic mb-2">91 Rue du Faubourg Saint-Honoré, 75008 Paris</address>
-            <a href="www.alwaysdata.com" className="text-blue-500 underline flex flex-row mb-0.5"><img src="./src/assets/images/monde.png" alt="" className="w-4 h-4 mr-2"/> www.alwaysdata.com</a>
+            <a href="www.alwaysdata.com" className="text-blue-500 underline flex flex-row mb-0.5"><img src="./src/assets/images/monde.png" alt="" className="w-4 h-4 mr-2 mt-1"/> www.alwaysdata.com</a>
             </div>
         </div>
         <h2 id="accordion-color-heading-3">
             <button type="button" className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 hover:bg-blue-100  gap-3" data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
             <span>Crédits</span>
-            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5 5 1 1 5"/>
             </svg>
             </button>
         </h2>
         <div id="accordion-color-body-3" className="hidden" aria-labelledby="accordion-color-heading-3">
             <div className="p-5 border border-t-0 border-gray-200 rounded-b-xl">
+            <p className="text-2xl font-bold mb-2">Crédits</p>
             <p className="mb-2 text-gray-5000">Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" className="text-blue-500 underline">Centre Européen de formation</a>.</p>
             <p className="mb-2 text-gray-5000 italic">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/fr/" className="text-blue-500 underline">Pixabay</a></p>
             <div>
@@ -78,6 +79,7 @@ function MentionsLegales () {
             <a href="https://www.flaticon.com/fr/icones-gratuites/texte" title="texte icônes">Texte icônes créées par deemakdaksina - Flaticon</a>
             <a href="https://www.flaticon.com/fr/icones-gratuites/cube" title="cube icônes">Cube icônes créées par Smashicons - Flaticon</a>
             <a href="https://www.flaticon.com/fr/icones-gratuites/duo" title="duo icônes">Duo icônes créées par joalfa - Flaticon</a>
+            <a href="https://www.flaticon.com/fr/icones-gratuites/john-doe" title="john doe icônes">John doe icônes créées par Freepik - Flaticon</a>
             </div>
             </div>
         </div>
